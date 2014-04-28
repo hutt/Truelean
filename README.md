@@ -20,3 +20,7 @@ System.out.println(input.toString()); // "true"
 yes.
 ### Do you smell nice?
 yes.
+### Do you take drugs?
+no.
+### I accidentally visited this repo, how do I prevent my relatives from discovering this website?
+Clear your Browser history.
