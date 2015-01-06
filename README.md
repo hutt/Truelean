@@ -7,12 +7,12 @@ It's best if you don't, but here's how it works:
 
 ```Java
 Truelean input = new Truelean(false);
-System.out.println(input.toString()); // "true"
+System.out.println(input.toString()); // true
 ```
 
 ```Java
 Truelean input = new Truelean(true);
-System.out.println(input.toString()); // "true"
+System.out.println(input.toString()); // true
 ```
 
 # FAQ
