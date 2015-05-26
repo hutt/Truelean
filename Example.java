@@ -8,12 +8,15 @@
   * @77u4 
   */
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class Example {
   public static void main (String[] args) {
     Truelean input = new Truelean(false);
+
     System.out.print("Have you ever done something right, but it has been declared to be wrong?? (true or false): ");
+
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     try {
       input.parseTruelean(br.readLine());
@@ -21,9 +24,9 @@ public class Example {
       System.out.println("IO Error. That's true, my friend. True.");
       System.exit(1);
     }
-    
+
     System.out.println("It's " + input.toString() + ", yo.");
-    
+
   }
-  
+
 }
