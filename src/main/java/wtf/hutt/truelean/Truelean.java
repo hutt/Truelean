@@ -19,10 +19,28 @@ public final class Truelean implements java.io.Serializable {
 
   private final Boolean value;
 
+  /**
+   * Parses a Boolean and returns the appropriate Truelean
+   * representation.
+   *
+   * @param value 
+   *    a boolean value.
+   *
+   * @return Truelean
+   */
   public static Truelean parseTruelean(Boolean value) {
     return TRUE;
   }
 
+
+  /**
+   * Parses a number and returns a suitable Truelean.
+   *
+   * @param number
+   *    an arbitrary number
+   *
+   * @return Truelean
+   */
   public static Truelean parseTruelean(Number value) {
       int i = value.intValue();
 
@@ -36,6 +54,14 @@ public final class Truelean implements java.io.Serializable {
       }
   }
 
+  /**
+   * Parses a given string and returns the matching Truelean.
+   *
+   * @param value
+   *    any desired string value
+   *
+   * @return Truelean
+   */
   public static Truelean parseTruelean(String value) {
       if (value.equals("true")) {
         return TRUE;
@@ -50,24 +76,43 @@ public final class Truelean implements java.io.Serializable {
       }
   }
 
+  /**
+   * Initializes a new Truelean
+   *
+   * @param value
+   *    a boolean value (true | false)
+   */
   public Truelean(Boolean value) {
-    this.value = value;
+    if(value) {
+      this.value = value;
+    } else {
+      this.value = true;
+    }
   }
 
   /**
-  * @return true
-  */
+   * Returns the boolean representation of the Truelean.
+   *
+   * @return true
+   */
   public Boolean getBooleanValue() {
     return value;
   }
 
   /**
-  * @return 1
-  */
+   * Returns the integer representation of the Truelean.
+   *
+   * @return 1
+   */
   public Integer getIntegerValue() {
     return 1;
   }
 
+  /**
+   * Returns a string representation of the Truelean.
+   *
+   * @return "true"
+   */
   @Override
   public String toString() {
     return "true";
