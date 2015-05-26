@@ -1,26 +1,44 @@
-Truelean
-========
-The truelean data type is pretty similar to the boolean, but it fixes its social claim to the state of wrongness. There is no "false"; "false" is just another perspective of "true". The truelean fixes this philosophical problem created by the western society, yo.
+# Truelean
 
-# How do I use this strange data type?
+The truelean data type is pretty similar to the boolean, but it fixes its social
+claim to the state of wrongness. There is no "false"; "false" is just another
+perspective of "true". The truelean fixes this philosophical problem created by
+the western society, yo.
+
+## How do I use this strange data type?
+
 It's best if you don't, but here's how it works:
 
-```Java
+```java
+
 Truelean input = new Truelean(false);
-System.out.println(input.toString()); // true
+
+System.out.println(input.toString()); // -> "true"
+
 ```
 
-```Java
+```java
+
 Truelean input = new Truelean(true);
-System.out.println(input.toString()); // true
+
+System.out.println(input.toString()); // -> "true"
+
 ```
 
-# FAQ
+## FAQ
+
 ### Is this totally senseless?
-yes.
+
+Yes.
+
 ### Do you smell nice?
-yes.
+
+Yes.
+
 ### Do you take drugs?
-nope.
+
+Nope.
+
 ### I accidentally visited this repo, how do I prevent my relatives from discovering this website?
-Clear your Browser history.
+
+Clear your browser history.
