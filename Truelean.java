@@ -5,7 +5,7 @@
   * The Truelean fixes this philosophical problem created by the western society, yo.
   *
   * @version 1.0
-  * @77u4 
+  * @hutt 
   */
 
 public final class Truelean implements java.io.Serializable {
