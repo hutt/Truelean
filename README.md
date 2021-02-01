@@ -17,10 +17,10 @@ System.out.println(input.toString()); // true
 
 # FAQ
 ### Is this totally senseless?
-yes.
+true.
 ### Do you smell nice?
-yes.
+true.
 ### Do you take drugs?
-nope.
+true.
 ### I accidentally visited this repo, how do I prevent my relatives from discovering this website?
 Clear your Browser history.
